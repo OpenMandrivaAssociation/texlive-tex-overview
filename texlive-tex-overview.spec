@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.doc.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The document gives a short overview of TeX and its children, as
@@ -29,7 +27,6 @@ well as the macro packages LaTeX and ConTeXt.
 %doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview-aux.tex
 %doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview.pdf
 %doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,5 +37,3 @@ well as the macro packages LaTeX and ConTeXt.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
