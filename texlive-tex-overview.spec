@@ -1,12 +1,12 @@
-# revision 23730
+# revision 27724
 # category Package
 # catalog-ctan /info/tex-overview
-# catalog-date 2011-08-27 22:03:02 +0200
+# catalog-date 2012-09-16 19:39:43 +0200
 # catalog-license lppl1.3
-# catalog-version 0.1e
+# catalog-version 0.1f
 Name:		texlive-tex-overview
-Version:	0.1e
-Release:	2
+Version:	0.1f
+Release:	1
 Summary:	An overview of the development of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-overview
@@ -37,16 +37,3 @@ well as the macro packages LaTeX and ConTeXt.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1e-2
-+ Revision: 756744
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1e-1
-+ Revision: 719709
-- texlive-tex-overview
-- texlive-tex-overview
-- texlive-tex-overview
-
