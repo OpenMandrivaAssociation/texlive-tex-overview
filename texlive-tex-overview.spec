@@ -6,7 +6,7 @@
 # catalog-version 0.1e
 Name:		texlive-tex-overview
 Version:	0.1e
-Release:	2
+Release:	3
 Summary:	An overview of the development of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-overview
