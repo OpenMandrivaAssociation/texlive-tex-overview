@@ -1,12 +1,6 @@
-# revision 27724
-# category Package
-# catalog-ctan /info/tex-overview
-# catalog-date 2012-09-16 19:39:43 +0200
-# catalog-license lppl1.3
-# catalog-version 0.1f
 Name:		texlive-tex-overview
-Version:	0.1f
-Release:	9
+Version:	0.2
+Release:	1
 Summary:	An overview of the development of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-overview
@@ -23,10 +17,7 @@ well as the macro packages LaTeX and ConTeXt.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/tex-overview/README
-%doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview-aux.tex
-%doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview.pdf
-%doc %{_texmfdistdir}/doc/latex/tex-overview/tex-overview.tex
+%doc %{_texmfdistdir}/doc/latex/tex-overview
 
 #-----------------------------------------------------------------------
 %prep
