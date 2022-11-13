@@ -1,12 +1,12 @@
 Name:		texlive-tex-overview
-Version:	0.2
-Release:	2
+Version:	41403
+Release:	1
 Summary:	An overview of the development of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-overview
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,7 +21,7 @@ well as the macro packages LaTeX and ConTeXt.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
