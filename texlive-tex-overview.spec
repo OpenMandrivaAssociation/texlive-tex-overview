@@ -3,7 +3,7 @@ Version:	41403
 Release:	2
 Summary:	An overview of the development of TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/tex-overview
+URL:		https://www.ctan.org/tex-archive/info/tex-overview
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-overview.doc.r%{version}.tar.xz
